@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+overleaf-save/bin/
+overleaf-save/lib/
+overleaf-save/pyenv.cfg
+overleaf-save/creds.py
+overleaf-save/chromedriver
+overleaf-save/__pycache__/
