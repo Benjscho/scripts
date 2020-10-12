@@ -1,8 +1,9 @@
 import selenium
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
 import time
 import creds
+
+
 
 username = creds.login['OL_USERNAME']
 password = creds.login['OL_PASSWORD']

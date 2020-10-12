@@ -5,3 +5,4 @@ overleaf-save/pyenv.cfg
 overleaf-save/creds.py
 overleaf-save/chromedriver
 overleaf-save/__pycache__/
+.DS_Store
