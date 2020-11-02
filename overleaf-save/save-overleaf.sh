@@ -8,6 +8,6 @@ mv ~/Downloads/cm50109-cw1*.zip "/Users/crow/OneDrive - University of Bath/cm501
 cd "/Users/crow/OneDrive - University of Bath/cm50109/cw1/ol-backup/"
 unzip -o "/Users/crow/OneDrive - University of Bath/cm50109/cw1/ol-backup/cm50109-cw1.zip"
 rm "/Users/crow/OneDrive - University of Bath/cm50109/cw1/ol-backup/cm50109-cw1.zip"
-/usr/local/bin/git add --all && /usr/local/bin/git commit -m "daily crontab backup `date`"
+/usr/local/bin/git add --all && /usr/local/bin/git commit -m "Scripted backup `date`"
 
 

@@ -27,6 +27,6 @@ login_box.click()
 time.sleep(1)
 # Download coursework project
 driver.get('https://www.overleaf.com/project/5f76e2c5ebfaed00018ea900/download/zip')
-time.sleep(1)
+time.sleep(5)
 
 driver.quit()
