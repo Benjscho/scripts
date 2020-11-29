@@ -3,5 +3,6 @@
 cd /Users/crow/Dropbox/Obsidian-vaults/RavenNest && /usr/local/bin/git add --all && /usr/local/bin/git commit -m "daily crontab backup `date`"
 
 # Zip folder and backup
-cd /Users/crow/Dropbox/Obsidian-vaults/ && zip -r RavenNest-backup.zip /Users/crow/Dropbox/Obsidian-vaults/RavenNest
-mv -f /Users/crow/Dropbox/Obsidian-vaults/RavenNest-backup.zip "/Users/crow/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Backups/RavenNest-backup.zip"
+#cd /Users/crow/Dropbox/Obsidian-vaults/ && zip -r RavenNest-backup.zip /Users/crow/Dropbox/Obsidian-vaults/RavenNest
+#rm -f "/Users/crow/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Backups/.RavenNest-backup*.zip.icloud"
+#mv /Users/crow/Dropbox/Obsidian-vaults/RavenNest-backup.zip "/Users/crow/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Backups/RavenNest-backup.zip"
