@@ -17,4 +17,4 @@ WEEKNOTES=$((WEEKNOTES-1))
 printf "Weeknotes: \t\t%'d\n" $WEEKNOTES
 
 LINKS=$(grep -c http *.md | awk -F ":" '{sum += $NF} END {print sum}')
-printf "Number of links: \t%'d\n" $LINKS
+printf "Number of web links: \t%'d\n" $LINKS
