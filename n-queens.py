@@ -52,7 +52,7 @@ def backtrackSolveNQueens(n: int):
 
 #print(backtrackSolveNQueens(16))
 def wrapper():
-    return backtrackSolveNQueens(11)
+    return backtrackSolveNQueens(10)
 print(len(wrapper()))
 print(timeit.timeit(wrapper, number=1))
 
