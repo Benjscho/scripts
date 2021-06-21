@@ -6,3 +6,6 @@ overleaf-save/creds.py
 overleaf-save/chromedriver
 overleaf-save/__pycache__/
 .DS_Store
+.python-version
+*.swp
+*.code-workspace
