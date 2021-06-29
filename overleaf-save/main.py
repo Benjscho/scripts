@@ -14,6 +14,7 @@ driver = webdriver.Chrome('./chromedriver')
 # Open the site
 driver.get('https://www.overleaf.com/login')
 
+time.sleep(1)
 # Select id and password boxes
 id_box = driver.find_element_by_name('email')
 pass_box = driver.find_element_by_name('password')
@@ -24,9 +25,11 @@ id_box.send_keys(username)
 pass_box.send_keys(password)
 
 login_box.click()
-time.sleep(1)
+time.sleep(3)
 # Download coursework project
-driver.get('https://www.overleaf.com/project/5f76e2c5ebfaed00018ea900/download/zip')
-time.sleep(5)
+projects = ['5ffb88cff3c28ff81e003cb8']
+for uid in projects:
+    driver.get(f'https://www.overleaf.com/project/{uid}/download/zip')
+    time.sleep(5)
 
 driver.quit()
