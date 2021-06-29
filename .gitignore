@@ -9,3 +9,5 @@ overleaf-save/__pycache__/
 .python-version
 *.swp
 *.code-workspace
+.gitignore
+.ipynb*
