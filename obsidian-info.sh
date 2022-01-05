@@ -1,5 +1,5 @@
 #!/bin/bash
-cd "/Users/crow/Library/Mobile Documents/iCloud~md~obsidian/Documents/RavenNest"
+cd "/Users/$USER/Library/Mobile Documents/iCloud~md~obsidian/Documents/RavenNest"
 
 
 WORD=$(wc *.md | tail -1 | awk '$1 ~ /[0-9]/ {print $2}')
